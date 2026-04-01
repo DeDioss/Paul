@@ -18,14 +18,14 @@ export default function ProblemSolution() {
               <AlertTriangle className="w-8 h-8" />
             </div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-4">
-              Is Your HVAC System Failing When You Need It Most?
+              AC Broke in 100° Heat? Heater Not Working on a Cold Night?
             </h2>
             <ul className="space-y-4 mb-8">
               {[
-                "AC blowing warm air in the middle of summer?",
-                "Furnace making strange noises or won't turn on?",
-                "Energy bills skyrocketing for no clear reason?",
-                "Uneven temperatures throughout your home?"
+                "Sweating through the summer with a broken AC?",
+                "Freezing indoors because your furnace won't start?",
+                "Tired of waiting days for a technician to show up?",
+                "Worried about hidden fees and dishonest pricing?"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-slate-700">
                   <div className="mt-1 min-w-[20px] text-red-500">✕</div>
@@ -34,7 +34,7 @@ export default function ProblemSolution() {
               ))}
             </ul>
             <p className="text-slate-600 font-medium italic">
-              Don't wait for a complete breakdown. Small issues turn into expensive repairs fast.
+              We know how miserable it is when your HVAC system fails. You need help fast.
             </p>
           </motion.div>
 
@@ -46,17 +46,17 @@ export default function ProblemSolution() {
             className="p-8 md:p-12"
           >
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Get Fast, Reliable Solutions from Fresno's Experts.
+              Get Fast, Reliable Solutions from Merced's 5-Star Experts.
             </h2>
             <p className="text-lg text-slate-600 mb-8">
-              Since 1952, Purl's has been the trusted name for restoring comfort to homes in Fresno and Madera. We don't just apply band-aids; we provide lasting solutions.
+              At Perez Heating & Air, we pride ourselves on rapid response times and getting the job done right the first time. We restore your comfort quickly and honestly.
             </p>
             <ul className="space-y-4 mb-10">
               {[
-                "Rapid response times, 7 days a week",
-                "Upfront pricing with no hidden surprises",
-                "NATE-certified technicians who get it right the first time",
-                "Fully stocked trucks to complete most repairs on the spot"
+                "Same-day service available when you need it most",
+                "Honest, upfront pricing with no surprises",
+                "Highly rated, reliable technicians you can trust",
+                "On-time, every time—we respect your schedule"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-slate-800 font-medium">
                   <CheckCircle2 className="w-6 h-6 text-green-500 shrink-0" />

@@ -13,12 +13,12 @@ export default function Footer() {
                 P
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-xl leading-tight text-white">Purl's</span>
-                <span className="text-[10px] font-semibold text-slate-400 tracking-wider">SHEET METAL & A/C</span>
+                <span className="font-bold text-xl leading-tight text-white">Perez</span>
+                <span className="text-[10px] font-semibold text-slate-400 tracking-wider">HEATING & AIR</span>
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-6">
-              Providing top-tier HVAC, heating, cooling, and custom sheet metal fabrication to the Central Valley since 1952. Your comfort is our family's business.
+              Providing top-tier HVAC, heating, and cooling services to Merced, Atwater, and Turlock. Your comfort is our priority.
             </p>
             <div className="flex gap-4">
               {/* Social placeholders */}
@@ -37,19 +37,19 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <span className="text-sm">232 S Madera Ave,<br />Madera, CA 93637</span>
+                <span className="text-sm">Merced, CA 95340</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
-                <a href="tel:559-555-1234" className="text-sm hover:text-white transition-colors">(559) 555-1234</a>
+                <a href="tel:209-555-1234" className="text-sm hover:text-white transition-colors">(209) 555-1234</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0" />
-                <a href="mailto:service@purls.com" className="text-sm hover:text-white transition-colors">service@purls.com</a>
+                <a href="mailto:service@perezheatingandair.com" className="text-sm hover:text-white transition-colors">service@perezheatingandair.com</a>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <span className="text-sm">Available 7 Days a Week<br />Emergency Service Available</span>
+                <span className="text-sm">Same-Day Service Available<br />Emergency Service Available</span>
               </li>
             </ul>
           </div>
@@ -58,13 +58,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold text-lg mb-6">Our Services</h4>
             <ul className="space-y-3 text-sm">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">AC Repair Fresno</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">AC Repair Merced, CA</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">AC Installation</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Heating Services</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Heating Repair</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">HVAC Maintenance</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Sheet Metal Fabrication</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Whole Home Generators</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Indoor Air Quality</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Emergency HVAC Services</a></li>
             </ul>
           </div>
 
@@ -72,11 +70,9 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold text-lg mb-6">Service Areas</h4>
             <ul className="space-y-3 text-sm">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">HVAC Fresno, CA</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">HVAC Madera, CA</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Clovis, CA</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Chowchilla, CA</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Kerman, CA</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">HVAC Services Merced</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">HVAC Services Atwater</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">HVAC Services Turlock</a></li>
             </ul>
             <div className="mt-8">
               <a href="#estimate" className="inline-block bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-bold text-sm transition-colors border border-slate-700">
@@ -88,7 +84,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Purl's Sheet Metal & Air Conditioning. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Perez Heating & Air. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

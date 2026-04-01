@@ -15,8 +15,8 @@ export default function Navbar() {
                 P
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-xl leading-tight text-slate-900">Purl's</span>
-                <span className="text-xs font-semibold text-slate-500 tracking-wider">SHEET METAL & A/C</span>
+                <span className="font-bold text-xl leading-tight text-slate-900">Perez</span>
+                <span className="text-xs font-semibold text-slate-500 tracking-wider">HEATING & AIR</span>
               </div>
             </div>
           </div>
@@ -29,9 +29,9 @@ export default function Navbar() {
             
             <div className="flex items-center gap-4">
               <div className="flex flex-col items-end">
-                <span className="text-xs font-bold text-red-600 uppercase tracking-wider">24/7 Emergency Service</span>
-                <a href="tel:559-555-1234" className="text-xl font-bold text-slate-900 hover:text-blue-600 transition-colors">
-                  (559) 555-1234
+                <span className="text-xs font-bold text-red-600 uppercase tracking-wider">Same-Day Service Available</span>
+                <a href="tel:209-555-1234" className="text-xl font-bold text-slate-900 hover:text-blue-600 transition-colors">
+                  (209) 555-1234
                 </a>
               </div>
               <a href="#estimate" className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md font-bold transition-colors shadow-lg shadow-red-600/20 flex items-center gap-2">
@@ -42,7 +42,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <div className="flex items-center md:hidden gap-4">
-            <a href="tel:559-555-1234" className="bg-blue-600 text-white p-2 rounded-full">
+            <a href="tel:209-555-1234" className="bg-blue-600 text-white p-2 rounded-full">
               <Phone className="w-5 h-5" />
             </a>
             <button
@@ -63,9 +63,9 @@ export default function Navbar() {
             <a href="#why-us" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">Why Us</a>
             <a href="#reviews" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">Reviews</a>
             <div className="mt-4 px-3">
-              <p className="text-xs font-bold text-red-600 uppercase mb-1">Call Now - 7 Days a Week</p>
-              <a href="tel:559-555-1234" className="flex items-center justify-center w-full gap-2 bg-slate-900 text-white px-4 py-3 rounded-md font-bold text-lg mb-2">
-                <Phone className="w-5 h-5" /> (559) 555-1234
+              <p className="text-xs font-bold text-red-600 uppercase mb-1">Same-Day Service Available</p>
+              <a href="tel:209-555-1234" className="flex items-center justify-center w-full gap-2 bg-slate-900 text-white px-4 py-3 rounded-md font-bold text-lg mb-2">
+                <Phone className="w-5 h-5" /> (209) 555-1234
               </a>
               <a href="#estimate" className="flex items-center justify-center w-full bg-red-600 text-white px-4 py-3 rounded-md font-bold text-lg">
                 Get Free Estimate

@@ -5,21 +5,20 @@ export default function TrustBar() {
     <section className="bg-slate-50 border-b border-slate-200 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-center text-sm font-bold text-slate-500 uppercase tracking-widest mb-6">
-          Certified & Trusted By Industry Leaders
+          Why Homeowners Choose Us
         </p>
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-          {/* Placeholder for logos - using text for now, but styled to look like logos */}
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-80 transition-all duration-500">
           <div className="flex items-center justify-center font-black text-2xl text-slate-800 tracking-tighter">
-            <span className="text-blue-600">NATE</span> Certified
+            <span className="text-yellow-500 mr-2">★★★★★</span> 5-Star Rated
           </div>
           <div className="flex items-center justify-center font-black text-2xl text-slate-800 tracking-tighter">
-            EPA <span className="text-green-600 ml-1">Approved</span>
-          </div>
-          <div className="flex items-center justify-center font-black text-2xl text-slate-800 tracking-tighter italic">
-            Carrier <span className="text-sm font-normal not-italic ml-2">Factory Authorized</span>
+            <span className="text-blue-600 mr-2">⚡</span> Fast Response
           </div>
           <div className="flex items-center justify-center font-black text-2xl text-slate-800 tracking-tighter">
-            BBB <span className="text-blue-800 ml-1">A+ Rated</span>
+            <span className="text-green-600 mr-2">$</span> Honest Pricing
+          </div>
+          <div className="flex items-center justify-center font-black text-2xl text-slate-800 tracking-tighter">
+            <span className="text-red-600 mr-2">✓</span> Done Right
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 bg-blue-600/20 text-blue-300 px-4 py-2 rounded-full font-semibold text-sm mb-6 border border-blue-500/30"
           >
             <ShieldCheck className="w-4 h-4" />
-            Fresno & Madera's Most Trusted Since 1952
+            Trusted by homeowners in Merced, Atwater & Turlock
           </motion.div>
 
           {/* Headline */}
@@ -33,7 +33,7 @@ export default function Hero() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight"
           >
-            Don't Let HVAC Problems <span className="text-blue-400">Ruin Your Comfort.</span>
+            Fast, Reliable AC Repair in Merced – <span className="text-blue-400">Same-Day Service Available.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -43,7 +43,7 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed"
           >
-            Fast, reliable AC & Heating repair, installation, and custom sheet metal fabrication. <strong className="text-white">Same-day service available 7 days a week.</strong>
+            Don't suffer in the heat or cold. We are your local 5-star rated HVAC experts, delivering fast response times, honest pricing, and reliable solutions.
           </motion.p>
 
           {/* CTAs */}
@@ -53,13 +53,13 @@ export default function Hero() {
             transition={{ delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4 mb-10"
           >
-            <a href="tel:559-555-1234" className="flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-lg shadow-red-600/30">
+            <a href="tel:209-555-1234" className="flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-lg shadow-red-600/30">
               <Phone className="w-6 h-6" />
-              Call Now: (559) 555-1234
+              Call Now
             </a>
             <a href="#estimate" className="flex items-center justify-center gap-3 bg-white hover:bg-slate-100 text-slate-900 px-8 py-4 rounded-lg font-bold text-lg transition-all shadow-lg">
               <Calendar className="w-6 h-6 text-blue-600" />
-              Get Free Estimate
+              Book Service Today
             </a>
           </motion.div>
 
@@ -74,15 +74,15 @@ export default function Hero() {
               <div className="flex text-yellow-400">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
               </div>
-              <span className="ml-2 text-white">4.8/5 Average Rating</span>
+              <span className="ml-2 text-white">5-Star Rated Service</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-blue-400" />
-              NATE & EPA Certified
+              Fast Response Times
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-xl text-white">70+</span>
-              Years Experience
+              <span className="font-bold text-xl text-white">100%</span>
+              Satisfaction Guaranteed
             </div>
           </motion.div>
         </div>

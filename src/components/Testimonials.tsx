@@ -4,20 +4,20 @@ import { motion } from 'motion/react';
 const testimonials = [
   {
     name: "Sarah M.",
-    location: "Fresno, CA",
-    text: "Our AC died on a 105-degree day. Purl's had a technician out within hours. He was professional, explained the issue clearly, and had it running again quickly. Lifesavers!",
+    location: "Merced, CA",
+    text: "Our AC died on a 105-degree day. Perez Heating & Air had a technician out within hours. He was professional, explained the issue clearly, and had it running again quickly. Lifesavers!",
     rating: 5
   },
   {
     name: "David T.",
-    location: "Madera, CA",
-    text: "We used them for a full system replacement. The fact that they do their own sheet metal work meant the new ducting fit perfectly. Very clean and respectful crew.",
+    location: "Atwater, CA",
+    text: "We used them for a full system replacement. The pricing was honest, the crew was respectful, and they got it done right the first time. Highly recommend their 5-star service.",
     rating: 5
   },
   {
     name: "Jessica R.",
-    location: "Fresno, CA",
-    text: "I've been using Purl's for maintenance for 5 years. They never try to upsell me on things I don't need. Honest, reliable, and always on time.",
+    location: "Turlock, CA",
+    text: "I've been using Perez for maintenance for years. They never try to upsell me on things I don't need. Honest, reliable, and always on time.",
     rating: 5
   }
 ];
@@ -32,7 +32,7 @@ export default function Testimonials() {
               {[...Array(5)].map((_, i) => <Star key={i} className="w-8 h-8 fill-current" />)}
             </div>
           </div>
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">Loved by Fresno & Madera</h2>
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">Loved by Merced, Atwater & Turlock</h2>
           <p className="text-xl text-slate-600">Don't just take our word for it. Read what your neighbors say.</p>
         </div>
 

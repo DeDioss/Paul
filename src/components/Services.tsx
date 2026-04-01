@@ -17,7 +17,7 @@ const services = [
     cta: "Get Install Quote"
   },
   {
-    title: "Heating Services",
+    title: "Heating Repair",
     problem: "Furnace won't turn on?",
     solution: "Stay warm with expert repairs.",
     image: "https://images.unsplash.com/photo-1534398079543-7ae6d016b86d?q=80&w=800&auto=format&fit=crop",
@@ -29,20 +29,6 @@ const services = [
     solution: "Keep it running with tune-ups.",
     image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=800&auto=format&fit=crop",
     cta: "Book Tune-Up"
-  },
-  {
-    title: "Sheet Metal Fab",
-    problem: "Need custom ductwork?",
-    solution: "We fabricate in-house.",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
-    cta: "Learn More"
-  },
-  {
-    title: "Generators",
-    problem: "Tired of power outages?",
-    solution: "Keep your home running.",
-    image: "https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=800&auto=format&fit=crop",
-    cta: "Explore Generators"
   }
 ];
 
@@ -59,26 +45,26 @@ export default function Services() {
               <span className="text-slate-600 font-semibold uppercase tracking-wider text-sm">Services We Offer</span>
             </div>
             <h2 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight tracking-tight">
-              Certified<br />Excellence
+              Residential<br />HVAC Services
             </h2>
           </div>
           <div className="max-w-md">
             <p className="text-slate-600 text-lg mb-6">
-              From emergency repairs and new installations to preventative maintenance and custom fabrication, we've got you covered. Choose reliability, choose Purl's.
+              From emergency repairs and new installations to preventative maintenance, we've got you covered. Choose reliability, choose Perez Heating & Air.
             </p>
             <div className="flex items-center gap-6">
-              <a href="#all-services" className="text-red-600 font-bold hover:text-red-700 flex items-center gap-1 transition-colors">
-                View All Services <ArrowUpRight className="w-4 h-4" />
+              <a href="#estimate" className="text-red-600 font-bold hover:text-red-700 flex items-center gap-1 transition-colors">
+                Book Service Today <ArrowUpRight className="w-4 h-4" />
               </a>
-              <a href="tel:559-555-1234" className="text-red-600 font-bold hover:text-red-700 flex items-center gap-1 transition-colors">
-                Call For Booking <ArrowUpRight className="w-4 h-4" />
+              <a href="tel:209-555-1234" className="text-red-600 font-bold hover:text-red-700 flex items-center gap-1 transition-colors">
+                Call Now <ArrowUpRight className="w-4 h-4" />
               </a>
             </div>
           </div>
         </div>
 
         {/* Services Grid matching reference image style */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <motion.div 
               key={index}

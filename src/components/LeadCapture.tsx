@@ -27,8 +27,8 @@ export default function LeadCapture() {
             </p>
             <div className="mt-auto">
               <p className="text-sm text-slate-400 uppercase tracking-wider font-bold mb-2">Prefer to call?</p>
-              <a href="tel:559-555-1234" className="text-3xl font-black text-white hover:text-blue-400 transition-colors">
-                (559) 555-1234
+              <a href="tel:209-555-1234" className="text-3xl font-black text-white hover:text-blue-400 transition-colors">
+                (209) 555-1234
               </a>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function LeadCapture() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-2">Phone Number</label>
-                  <input type="tel" id="phone" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all" placeholder="(559) 555-0000" />
+                  <input type="tel" id="phone" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all" placeholder="(209) 555-0000" />
                 </div>
                 <div>
                   <label htmlFor="service" className="block text-sm font-medium text-slate-700 mb-2">Service Needed</label>
@@ -60,7 +60,6 @@ export default function LeadCapture() {
                     <option>AC Installation</option>
                     <option>Heating Repair</option>
                     <option>Maintenance</option>
-                    <option>Sheet Metal / Ductwork</option>
                     <option>Other</option>
                   </select>
                 </div>
@@ -75,7 +74,7 @@ export default function LeadCapture() {
                 Request Service Now
               </button>
               <p className="text-center text-xs text-slate-500 mt-4">
-                By submitting this form, you agree to be contacted by Purl's regarding your request.
+                By submitting this form, you agree to be contacted by Perez Heating & Air regarding your request.
               </p>
             </form>
           </div>
